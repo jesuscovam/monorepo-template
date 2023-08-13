@@ -1,6 +1,6 @@
 module.exports = {
     root: true,
-    "extends": [
+    extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:svelte/recommended',

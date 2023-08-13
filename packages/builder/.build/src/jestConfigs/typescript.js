@@ -10,7 +10,7 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var presets_1 = require("ts-jest/presets");
 // Sync object
 var config = {
@@ -19,6 +19,6 @@ var config = {
     modulePathIgnorePatterns: [
         '<rootDir>/amplify/#current-cloud-backend/',
         '.build/',
-    ]
+    ],
 };
-exports["default"] = config;
+exports.default = config;

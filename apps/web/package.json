@@ -1,5 +1,5 @@
 {
-	"name": "web-meca",
+	"name": "web",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -31,8 +31,9 @@
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2",
-		"vitest": "^0.33.0"
+		"vitest": "^0.33.0",
+		"components": "workspace:*",
+		"builder": "workspace:*"
 	},
 	"type": "module"
-	
 }

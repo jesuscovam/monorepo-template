@@ -3,14 +3,20 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint"
+    "lint": "turbo run lint",
+    "format": "turbo run format"
   },
   "devDependencies": {
     "@turbo/gen": "^1.9.7",
+    "autoprefixer": "^10.4.14",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
+    "postcss": "^8.4.27",
     "prettier": "^2.5.1",
+    "tailwindcss": "^3.3.3",
     "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "packageManager": "pnpm@8.6.10",
   "name": "monorepo-template"

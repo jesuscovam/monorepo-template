@@ -5,7 +5,7 @@
       "module": "es2020",
       "lib": ["es2020"],
       "target": "es2019",
-      "importsNotUsedAsValues": "error",
+      "verbatimModuleSyntax": true,
       "isolatedModules": true,
       "resolveJsonModule": true,
       "sourceMap": true,
