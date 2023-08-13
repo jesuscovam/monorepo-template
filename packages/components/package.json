@@ -1,0 +1,16 @@
+{
+	"name": "components",
+	"version": "1.0.0",
+	"main": "src/index.ts",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write .",
+		"svelte-check": "svelte-check --tsconfig ./tsconfig.json"
+	},
+	"devDependencies": {
+		"builder": "*",
+		"svelte-check": "^3.4.6"
+	}
+}
