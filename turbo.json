@@ -3,8 +3,12 @@
   "globalDependencies": ["**/.env.*local"],
   "pipeline": {
     "build": {
-      "dependsOn": ["^build", "lint"],
+      "dependsOn": ["^build","package", "lint"],
       "outputs": ["dist/**", ".svelte-kit/**", ".vercel/**", ".build/**"]
+    },
+    "package": {
+      "dependsOn": ["^package"],
+      "outputs": ["dist/**"]
     },
     "lint": {
       "dependsOn": ["^lint", "format"],
