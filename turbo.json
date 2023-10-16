@@ -16,7 +16,7 @@
     },
     "format": {
       "dependsOn": ["^format"],
-      "outputs": []
+      "outputs": ["src/**"]
     },
     "dev": {
       "cache": false,
